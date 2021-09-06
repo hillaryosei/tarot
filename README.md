@@ -6,4 +6,4 @@ Hopes for Project:
 
 * Include more card meanings & images
 * Expand to include different spreads
-* Make more interactive
+* Make more interactive through animations
