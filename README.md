@@ -1,6 +1,6 @@
 # Rider-Waite Tarot App
 
-Description: A web application for conducting tarot readings! (WIP)
+Description: A web application for conducting tarot readings! (A work in progress..)
 
 Hopes for Project:
 
