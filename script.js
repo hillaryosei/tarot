@@ -103,14 +103,15 @@ let deck = [
 function getRandom(num) {
   let randomNumber = Math.floor(Math.random() * num);
   return randomNumber;
-};
+}
 
 //button
-document.getElementById("draw").onclick = function () {
+document.getElementById("draw").onclick = function() {
   let index = getRandom(78); // position in array
-  let selectedCard = deck[index]; // get selected card
+  let selectedCard = tarotCard[index]; // get selected card
 
   //make display div to have image within card name w/ meaning underneath
-  document.getElementById("card_display").innerHTML = '<img src="images/' + selectedCard.image + '.jpeg"><h3>' + selectedCard.name + '</h3><p>' +
-    selectedCard.meaning + '</p>';
+  document.getElementById("card_display").innerHTML = '<img src="images/' + selectedCard.image + '.jpeg"><h3>' + selectedCard.name + '</h3><p>' + selectedCard.meaning + '</p>';
 };
+
+
