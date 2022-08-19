@@ -7,7 +7,7 @@ function tarotCard(name, meaning, image) {
 
 /* card app, array of objects
 card meanings courtesy of biddytarot.com
-images from wikimedia */
+images from labyrinthos.co & the thetarotlady.com */
 const deck = [
   //major arcana
   new tarotCard('The Fool', 'Have an open, curious mind and a sense of excitement.  Throw caution to the wind and be ready to embrace the unknown. The world is your oyster!.', 'fool'),
