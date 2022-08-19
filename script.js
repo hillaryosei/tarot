@@ -107,7 +107,7 @@ function getRandom(num){
 
 //button interaction
 document.getElementById("draw").onclick = function(){
-  let index = getRandom(77);
+  let index = getRandom(79);
   let selectedCard = deck[index];
 
   //make display div to have image within card name w/ meaning underneath
