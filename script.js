@@ -111,6 +111,6 @@ document.getElementById("draw").onclick = function(){
   let selectedCard = deck[index];
 
   //make display div to have image within card name w/ meaning underneath
-  document.getElementById("display").innerHTML = '<img src="img/' + selectedCard.image + '.jpeg"><h3>' + selectedCard.name + '</h3><p>' + selectedCard.meaning + '</p>';
+  document.getElementById("display").innerHTML = '<img src="img/' + selectedCard.image + '.jpg"><h3>' + selectedCard.name + '</h3><p>' + selectedCard.meaning + '</p>';
 };
 
